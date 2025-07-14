@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with USB receiver",
+        "price": 15.99,
+        "category": "Electronics"
+    },
+    {
+        "id": 2,
+        "name": "Bluetooth Headphones",
+        "description": "Over-ear noise-cancelling headphones",
+        "price": 49.99,
+        "category": "Electronics"
+    },
+    {
+        "id": 3,
+        "name": "Coffee Mug",
+        "description": "Ceramic mug, 350ml, dishwasher safe",
+        "price": 7.5,
+        "category": "Kitchen"
+    },
+    {
+        "id": 4,
+        "name": "Notebook",
+        "description": "A5 lined notebook, 100 pages",
+        "price": 3.25,
+        "category": "Stationery"
+    },
+    {
+        "id": 5,
+        "name": "Desk Lamp",
+        "description": "LED desk lamp with adjustable brightness",
+        "price": 22.0,
+        "category": "Home"
+    },
+    {
+        "id": 6,
+        "name": "Water Bottle",
+        "description": "Stainless steel, 750ml, leak-proof",
+        "price": 12.99,
+        "category": "Outdoors"
+    },
+    {
+        "id": 7,
+        "name": "USB Flash Drive",
+        "description": "32GB USB 3.0 flash drive",
+        "price": 8.49,
+        "category": "Electronics"
+    },
+    {
+        "id": 8,
+        "name": "Backpack",
+        "description": "Water-resistant laptop backpack, 20L",
+        "price": 29.99,
+        "category": "Bags"
+    },
+    {
+        "id": 9,
+        "name": "Ballpoint Pens",
+        "description": "Pack of 10 blue ink pens",
+        "price": 2.99,
+        "category": "Stationery"
+    },
+    {
+        "id": 10,
+        "name": "Yoga Mat",
+        "description": "Non-slip yoga mat, 6mm thick",
+        "price": 18.5,
+        "category": "Fitness"
+    }
+]
