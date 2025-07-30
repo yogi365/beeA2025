@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        .sidebar {
+            width: 220px;
+            background: #222;
+            color: #fff;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding-top: 30px;
+        }
+
+        .sidebar h2 {
+            font-size: 18px;
+            margin: 20px 0 10px 30px;
+            color: #bbb;
+            letter-spacing: 1px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0 0 0 20px;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        .sidebar .menu-title {
+            font-weight: bold;
+            color: #fff;
+            cursor: default;
+            padding: 8px 10px;
+            border-radius: 4px;
+        }
+
+        .sidebar .submenu {
+            margin-left: 15px;
+        }
+
+        .sidebar .submenu li a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            padding: 6px 10px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .sidebar .submenu li a:hover {
+            background: #444;
+            color: #fff;
+        }
+
+        .main-content {
+            margin-left: 240px;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <span class="menu-title">Product</span>
+                <ul class="submenu">
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Add</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="menu-title">User</span>
+                <ul class="submenu">
+                    <li><a href="#">Edit</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Welcome to User Dashboard</h1>
+        <p>Select an option from the sidebar to get started.</p>
+    </div>
+</body>
+
+</html>
